@@ -1,0 +1,71 @@
+.hero img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.hero .one{
+    width: 30% ;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.836);
+    bottom: 30%;
+}
+
+.hero .two{
+    width: 30%;
+    text-align: left ;
+    color: rgba(249, 249, 249, 0.836);
+    bottom: 30%;
+    right: 10% !important;
+    left: auto;
+}
+
+
+.hero .three{
+    width: 30% ;
+    text-align: left ;
+    color: rgba(249, 249, 249, 0.836);
+    bottom: 30%;
+    right: 10% !important;
+    left: auto;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.518);
+}
+
+
+.hero .four{
+    width: 30% ;
+    text-align: left;
+    color: #ffffffd5;
+    bottom: 30%;
+    left: 10%;
+}
+
+
+.hero h3{
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 992px){
+    .hero .carousel-caption{
+        width: 75% ;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.674);
+        color: #fff;
+        padding: 10px;
+    }
+
+    .hero .one{
+       
+        bottom: 20%;
+    }
+
+    .hero .three{
+       
+        bottom: 20%;
+    }
+
+    .hero .four{
+       
+        bottom: 20%;
+    }
+}
